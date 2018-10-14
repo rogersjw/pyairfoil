@@ -26,7 +26,7 @@ PyAirfoil contains methods and objects related to generating airfoil geometries
 Features
 --------
 
-* TODO
+* None right now... More to come soon.
 
 Credits
 -------
