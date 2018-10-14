@@ -7,6 +7,7 @@ AIRFOIL_TYPES = {}
 
 
 class AirfoilBase:
+    """ Base Airfoil Class """
 
     def __init__(self, **kwargs):
         # Register myself as an airfoil class type. Useful in the future when
@@ -31,6 +32,7 @@ class AirfoilBase:
 
 
 class AirfoilPritchard(AirfoilBase):
+    """ Airfoil Class based on Pritchard's Defined Structure """
 
     def __init__(self):
         super().__init__()
